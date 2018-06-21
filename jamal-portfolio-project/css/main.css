@@ -1,0 +1,243 @@
+/***** BASE STYLES *****/
+
+body {
+    background-color: #1f202b;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#portfolio {
+    height: 1550px;
+}
+
+#about {
+    height: 550px;
+}
+
+#contact {
+    height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+.half-width {
+    float: left;
+    width: 600px;
+}
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+    background: url('../img/hero-background.png');
+    background-size: cover;
+    height: 800PX;
+}
+
+header h1 {
+    font-family:'Montserrat', sans-serif;
+    position: absolute;
+    top: 6px;
+}
+
+nav {
+    height: 29px;
+    left: 850px;
+    line-height: 1.2;
+    position: absolute;
+    top: 6px;
+    word-spacing: 45px;
+    width: 600px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-transform: lowercase;
+}
+
+header h2 {
+    color: #ffffff;
+    font-size: 72px;
+    font-family: 'Source Code Pro', monospace;
+    padding: 300px 95px 0 25px;
+    text-align: left;
+}
+
+header h2 span {
+    color: #fa0075;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio h2 {
+    color: #fa0075;
+    font-family: 'Source Code Pro',monospace;
+    font-size: 36px;
+    text-align: center;
+}
+
+#rogue-pickings-thumbnail img {
+    border: 1px;
+    color: #b7b7b7;
+  }
+
+#rogue h3 {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#rogue p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+#jubilee h3 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#jubilee p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+#jubilee-thumbnail img {
+    border: 1px;
+    color: #b7b7b7;
+}
+
+#holstee-thumbnail img {
+    border: 1px;
+    color: #b7b7b7;
+}
+
+#holstee h3 {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#holstee p {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background-image: url('../img/about-me.png');
+    background-size: cover;
+}
+
+#about h2 {
+    color: #fa0075;
+    font-family: 'Source Code Pro',monospace;
+    font-size: 36px;
+    text-align: center;
+}
+
+#about h3 {
+    color: #1f202b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#about p {
+    color: #1f202b;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    text-align: left;
+    top: 100px;
+}
+
+/***** CONTACT *****/
+
+#contact h2 {
+    color: #fa0075;
+    font-size: 36px;
+    text-align: center;
+}
+
+#hire-me h3 {
+    color: white;
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#hire-me p {
+    color: white;
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#socialmedia h3 {
+    color: white;
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#socialmedia ul {
+    list-style: none;
+}
+
+#socialmedia ul li {
+    display: inline-block;
+}
+
+#socialmedia ul img {
+    font-size: 32px;
+    padding-right: 48px;
+}
+
+#meet-me h3 {
+    color: white;
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#meet-me p {
+    color: white;
+    font-family: 'Montserrat' ,sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+#contact h4 {
+    clear: both;
+    color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 18px;
+    text-align: center;
+    height: 53px;
+}
